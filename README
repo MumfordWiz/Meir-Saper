@@ -1,0 +1,6 @@
+TriviaLock
+
+App function:
+The app locks the user's phone with a trivia question to which there are several answer options,
+upon answering correctly the app unlocks the phone, if the user answered wrong, another question appears.
+
