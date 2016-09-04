@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:layout_gravity="bottom"
+    android:id="@+id/action0">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:src="@drawable/logo"
+        android:id="@+id/logot"
+        android:layout_alignParentTop="true"
+
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="40dp"
+
+        />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical" >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="40dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/wrongicon"
+                android:src="@drawable/wronganswers"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/onRed"
+                android:id="@+id/wronganswers"
+                android:layout_below="@id/wrongicon"
+                android:layout_centerInParent="true"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="30sp"
+
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="40dp">
+
+            <ImageView
+                android:id="@+id/righticon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/rightanswers"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/onGreen"
+                android:layout_centerInParent="true"
+                android:layout_below="@+id/righticon"
+                android:id="@+id/rightanswers"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="30sp"
+                />
+
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:onClick="goToSettings"
+        android:id="@+id/button2"
+        android:fontFamily="sans-serif-thin"
+        android:background="@drawable/button_color"
+        android:textColor="@android:color/white"
+        android:drawableTop="@drawable/settings"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="0dp"
+        android:textSize="14sp"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset Stats"
+        android:onClick="reset"
+        android:id="@+id/button3"
+        android:fontFamily="sans-serif-thin"
+        android:background="@drawable/button_color"
+        android:drawableTop="@drawable/reset"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="info"
+        android:onClick="showInfo"
+        android:id="@+id/button4"
+        android:fontFamily="sans-serif-thin"
+        android:background="@drawable/button_color"
+        android:drawableTop="@drawable/info"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/unlocked"
+        android:fontFamily="sans-serif-thin"
+        android:id="@+id/button"
+        android:onClick="switchService"
+
+        android:text="Off"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/offbutton"
+        android:textColor="@android:color/white"
+        android:textSize="19dp"
+
+
+        />
+
+
+
+</RelativeLayout>

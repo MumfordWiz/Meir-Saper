@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference android:title="Sports"
+        android:defaultValue="true"
+        android:summary="This option if selected will give you sports questions."
+        android:key="sports" />
+    <CheckBoxPreference android:title="Science"
+        android:defaultValue="true"
+        android:summary="This option if selected will give you science questions."
+        android:key="science" />
+    <CheckBoxPreference android:title="Food"
+        android:defaultValue="true"
+        android:summary="This option if selected will give you food questions."
+        android:key="food" />
+    <CheckBoxPreference android:title="Movies"
+        android:defaultValue="true"
+        android:summary="This option if selected will allow the application to check for latest versions."
+        android:key="movies" />
+    <CheckBoxPreference android:title="History"
+        android:defaultValue="true"
+        android:summary="This option if selected will allow the application to check for latest versions."
+        android:key="history" />
+    <CheckBoxPreference android:title="onOffButton"
+        android:defaultValue="false"
+        android:summary="This option if selected will determine if the service is on/off."
+        android:key="onOff" />
+    <EditTextPreference android:title="rightAnswersCounter"
+        android:defaultValue="0"
+        android:inputType="number"
+        android:key="rightCounter"></EditTextPreference>
+    <EditTextPreference android:title="wrongAnswersCounter"
+        android:defaultValue="0"
+        android:inputType="number"
+        android:key="wrongCounter"></EditTextPreference>
+
+
+
+</PreferenceScreen>

@@ -1,0 +1,367 @@
+61
+How many planets are there in our solar system?
+4 0
+9
+8
+10
+12
+Which of the following is necessary for burning (combustion)?
+4 0
+Oxygen
+Carbon
+Petrol
+Nitrogen
+Enzymes and anti-bodies are mainly made of 
+4 0
+Proteins
+Vitamins
+Fats
+Carbohydrates
+Where is the Sea of Tranquility?
+4 0
+On the Moon
+Near the Bermuda Triangle
+In the Pacific Ocean
+In the Atlantic Ocean 
+Who discovered the circulation of blood?
+4 0
+William Harvey
+Louis Pasteur
+Edward Jenner
+Hargobind Khorana
+What is the total number of bones in the human body?
+4 2
+32
+196
+206
+512
+Which two planets are most similar in size diameter wise?
+4 1
+Mars and Mercury
+Venus and Earth
+Uranus and Neptune
+Jupiter and Saturn
+Which color is not considered to be one of the primary colors of light?
+4 1
+Red
+yellow
+green
+blue
+Which of the following heavenly bodies have never had a spacecraft landed on it?
+4 3
+Venus
+Mars
+The moon
+Jupiter
+What is the name of the disease that has been referred to as the "disease of kings"?
+4 0
+Hemophilia
+Jaundice
+Rubella
+Syphilis
+Louis Pasteur developed which vaccine?
+4 1
+Polio
+Rabies
+Smallpox
+Anthrax
+How long ago did dinosaurs become extinct?
+4 3
+10,000 years
+600,000 years
+6 million years
+60 million years
+Which of the following are true during a lunar eclipse?
+4 1
+The sun is between the earth and the moon
+The earth is between the sun and the moon
+The sun is between the earth and the moon
+None of the above
+What country became the third one to launch a spacecraft to the moon in January 1990?
+4 2
+China
+France
+Japan
+United Kingdom
+What is an imaginary number?
+4 3
+Any irrational number
+Any complex number
+The result of dividing any number by zero
+The square root of any negative real number
+Which of these drugs was discovered first?
+3 1
+Aspirin
+Cocaine
+Penicillin
+
+In computer software, how many bits are in a kilobyte?
+4 3
+100
+1,000
+8,000
+8192
+How many of the eight planets other than earth are smaller than Earth?
+4 3
+0
+2
+4
+6
+During which decade was the television invented?
+4 0
+1920s
+1930s
+1940s
+1950s
+Which of these animals lays eggs?
+4 2
+Kangaroo
+Koala
+Platypus
+Tasmanian devil
+Which of the following animals have, on the average, the shortest lifespan?
+4 2
+Gray squirrel
+Grizzly bear
+Kangaroo
+Moose
+Which of the following gasses account for about 78 percent of the earth's atmosphere?
+4 2
+Argon
+Carbon dioxide
+Nitrogen
+Oxygen
+In chemistry, what element is represented by the symbol C?
+4 1
+Calcium
+Carbon
+Chlorine
+Copper
+Which of the following animals usually weighs the least?
+4 0
+Lions
+Polar bears
+Tigers
+Wildebeest
+What planet has a day that lasts only 10 hours?
+3 2
+Mars
+Mercury
+Jupiter
+
+How long did it take the voyager 2 spacecraft to reach Netpune?
+3 2
+6 months
+3 years
+12 years 
+
+What was Othniel C. Marsh famous for doing?
+4 0
+Finding and naming dinosaurs
+Naming stars
+Naming pants
+Undersea exploration
+Which of these would you find in most eukaryotic cells?
+4 1
+Fennel
+Golgi body
+Carob
+Rue
+What is the name of Saturn's largest moon?
+4 2
+Zeus
+Hera
+Titan
+Jupiter
+What does an ohm measure?
+4 0
+Electric resistance
+Distance
+Atmospheric pressure
+Gravity
+Which planet is the second largest in our solar system?
+4 1
+Uranus
+Saturn
+Neptune
+Mars
+What is the first element on the periodic table?
+4 1
+Gold
+Hydrogen
+Oxygen
+Silver
+What would you do with a caliper?
+4 2
+Feed it
+Wear it
+Use it
+Eat it
+Who is generally credited with designing the first periodic table?
+4 2
+Louis Pasteur
+Ivan Pavlov
+Dmitri Mendeleev
+Gregor Mendel
+Who is credited with creating the smallpox vaccine?
+4 2
+Karl Stetter
+Hans Winkler
+Edward Jenner
+Jonas Salk
+Which of these is not a part of a cell?
+4 0
+Chevril
+Nucleus
+Cytoplasm
+Ribosome
+What is the study of fish called?
+4 1
+Virology
+Ichthyology
+Taxonomy
+Limnology
+Where would you find a filament?
+4 0
+In a light bulb
+On a cell
+Part of a bird's feather
+On the human body
+Which famous scientist is known for his theory of relativity?
+4 1
+Jonas Salk
+Albert Einstein
+Gabriel Mouton
+Andres Celsius
+The word Brontosaurus has been replaced by which dinosaur name?
+4 2
+Kryptops
+Neosodon
+Apatosaurus
+Parasaurolophus
+Nowadays, the BTU is defined as 1055 of what metric unit?
+4 0
+Joule
+Watt
+Ampere
+Volt
+M and K are both used to represent what number?
+4 0
+Thousand
+Twelve
+Hundred
+One
+What product was originally made thermal-shock resistant borosilicate glass?
+4 2
+Plexiglas
+Ceramics
+Pyrex
+Safety glass
+You might blow hot and cold on this one, but who would most likely use a synoptic chart?
+4 1
+Eye doctor
+Meteorologist
+Bible student
+Mathematician
+Which branch of science studies sound?
+4 1
+Botany
+Acoustics
+Earth Science
+Systems Theory
+Which three colours are used to display the picture on your TV screen?
+4 2
+Red, Green and Black
+Red, Green and Yellow
+Red, Green and Blue
+Red, Green and Brown
+Which of the following was traditionally a major component of blackboard chalk?
+4 1
+Sodium bicarbonate
+Calcium carbonate
+Calcium bicarbonate
+Sodium bisulfate
+What animal's heart kept Baby Fae alive in 1999?
+4 1
+Cat
+Baboon
+Guinea pig
+Dog
+Which of these units of distance is longest?
+4 2
+Astronomical unit
+Light-year
+Parsec
+Cubit
+In August 1983, who became the first black person in space?
+4 1
+Guion Bluford
+Arnaldo Tamayo Mendez
+Ronald McNair
+Mae Jemison
+What does an astronomer use a bolometer for?
+4 1
+Measuring the distance of a star
+Measuring the heat of stars
+To gauge parallax
+To measure bolos
+Which of these is not one of the three periods in the Mesozoic Era?
+4 2
+Triassic
+Jurassic
+Precambrian
+Cretaceous
+What part of your body would move if you flicked your carpal bones?
+4 2
+Elbow
+Knee
+Wrist
+Toes
+True bugs are in the order Hemiptera, so the June bug isn't a real bug. What is it?
+4 1
+Cockroach
+Beetle
+Arthropod
+Tick
+According to Gray's Anatomy, what would you find on either side of a vomer?
+4 0
+Nostrils
+Halves of the upper lip
+Eyebrows
+Dimples of a chin
+Which Wright brother was actually at the controls when their plane first flew?
+4 2
+Cecil
+Wilbur
+Orville
+Douglas
+All 12 people who walked on the Moon did so in whose presidency?
+4 1
+Lyndon Johnson
+Richard Nixon
+John Kennedy
+Gerald Ford
+Shortly after winning the Nobel Prize, Pierre Curie died. What killed him?
+4 1
+Radiation poisoning
+A horse-drawn carriage
+A bad egg
+Marie Curie's gun
+What do gluons "glue" together within hadrons?
+4 1
+Quirks
+Quasars
+Quarks
+Quickies
+For whom were the Oldsmobile and the Reo Speedwagon named?
+4 0
+Ransom Eli Olds
+Richard Evert Oldman
+O Henry Reo
+Old Man Reo Ford
+What is the chemical symbol of the element with the shortest English name?
+4 1
+Pb
+Sn
+Cu
+Fe

@@ -1,0 +1,541 @@
+90
+Who was Emperor of Japan first?
+3 1
+Komei
+Shoko
+Yoshihito
+
+Catherine the Great ruled what country?
+4 3
+England
+France
+Germany
+Russia
+Which of the Ancient Wonders was destroyed by a fire in about 356 BC?
+4 1
+Lighthouse of Alexandria
+The Temple of Artemis
+Hanging Gardens of Babylon
+The Great Pyramid
+William Pitt the Younger was Prime Minister during which of these events?
+4 1
+The Hundred Year War
+The French Revolution
+The Second World War
+The First World War
+Which country was once referred to as the Batavian Republic?
+4 2
+Sweden
+Denmark
+The Netherlands
+Austria
+Whom did Charles Guiteau assassinate in 1881?
+4 3
+Louis Mountbatten
+John F. Kennedy
+Anwar Sadat
+James Garfield
+Fezzan, Cyrenaica and Tripolitania make up which modern country?
+4 3
+Argentina
+Angola
+Sudan
+Libya
+What was President Ronald Reagan's codename while in office?
+4 2
+First man
+The eagle
+Rawhide
+Little boy
+Who shot and killed Billy the Kid on July 14th, 1881?
+4 3
+Wild Bill Hickok
+Bat Masterson
+Wyatt Earp
+Pat Garrett
+Which of these people won a Noble Peace Prize in 1978?
+4 0
+Anwar Sadat
+Margret Thatcher
+Jimmy Carter
+Pierre Trudeau
+Who was the mother of Queen Elizabeth I?
+4 3
+Catherine of Aragon
+Mary I
+Catherine the Great
+Anne Boleyn
+Which ancient people were the first to use ships with sails?
+4 0
+Egyptians
+Incans
+Aztecs
+Vikings
+Which nation was the first to grant women the right to vote?
+4 1
+Great Britain
+New Zealand
+America
+Canada
+In 1918, Wilhelm II abdicated from which country?
+4 1
+Mexico
+Germany
+Spain
+Cuba
+The Peloponnesian War was a battle between whom?
+4 2
+China and Nepal
+Spain and Portugal
+Sparta and Athens
+Argentina and Peru
+Conducted through the state of Georgia in 1864, who lead the "March to the Sea"?
+4 2
+Jackson
+Custer
+Sherman
+MacArthur
+Who was President of the United States during the war of 1812?
+4 2
+Polk
+Taft
+Madison
+Jefferson
+Who was responsible for the Oklahoma City bombing on April 19, 1995?
+4 0
+Timothy McVeigh
+Luke Helder
+Theodore Kaczynski
+Eric Robert Rudolph
+Which U.S. state was granted statehood on December 14th, 1819?
+4 1
+Ohio
+Alabama
+Georgia
+Kansas
+Which commoner became the head of England for 264 days?
+4 3
+Lord Mountbatten
+Guy Fawkes
+George Monck
+Richard Cromwell
+Where was the first skyscraper built in the United States?
+4 2
+Detroit
+New York
+Chicago
+Boston
+Who performed the first adult human heart transplant in 1967?
+4 3
+Dr. Charles Best
+Dr. Frederick Banting
+Dr. Alfred Blalock
+Dr. Christiaan Barnard
+In what year did WWI begin?
+4 3
+1812
+1867
+1939
+1914
+Where was the Fuhrer of Nazi Germany Adolf Hitler born?
+4 3
+Germany
+Russia
+France
+Austria
+In which city was John F. Kennedy assassinated?
+4 1
+Chicago
+Dallas
+Washington DC
+Houston
+During which decade was the United States involved in the Korean War?
+4 0
+1950s
+1970s
+1920s
+1980s
+Taking place from 431 to 404 BC, who fought in the Peloponnesian wars?
+4 1
+Gaul and Athens
+Sparta and Athens
+Pisa and Rome
+Rome and Sparta
+Which explorer was killed in Hawaii during his third exploratory voyage in 1779?
+4 3
+Ferdinand Magellan
+Christopher Columbus
+Marco Polo
+James Cook
+Engine designer and car engineer Karl Benz was native to which country?
+4 1
+America
+Germany
+Italy
+Spain
+Fought between Athens and Sparta, when did the Peloponnesian War take place?
+4 3
+982 BC
+1307 AD
+1106 AD
+431 BC
+The United States was involved in which of these wars during the early 1950s?
+4 2
+Napoleonic
+WWI
+Korean
+WWII
+Which historic event is sometimes referred to as Gorta Mor?
+4 0
+Potato Famine
+The Boer Wars
+Damghan Earthquake
+The Black Plague
+The War of 1812 saw the US fighting against which nation?
+4 3
+Germany
+Iran
+Korea
+Canada
+Which country did Portuguese explorer Vasco da Gama reach by sea in 1498?
+4 1
+Peru
+India
+Australia
+Cuba
+Which of the following famous people built a massive wall in England in 122 BC?
+4 0
+Hadrian
+Richard the Lionhearted
+Hannibal
+Charlemagne
+The last in the Julio Claudian dynasty, when was Nero the Emperor of Rome?
+4 3
+109 BC
+267 BC
+270 AD
+54 AD
+Which ancient Semitic civilization founded the ancient city of Carthage?
+4 3
+Incans
+Chinese
+Romans
+Phoenicians
+Which nation used to be called the British Honduras?
+4 3
+Ethiopia
+Chile
+Congo
+Belize
+Which explorer discovered the mouth of the Amazon River sometime around 1500?
+4 2
+Anthony van Diemen
+James Cook
+Amerigo Vespucci
+Sebastian Cabot
+Which General was responsible for the burning of Atlanta during the Civil War?
+4 0
+Sherman
+Lee
+Jefferson
+Grant
+Who was the commander of the Allied Expeditionary Force on D-Day?
+4 3
+Harry Truman
+Douglas MacArthur
+Winston Churchill
+Dwight Eisenhower
+Which country declared war on France and Britain on the 10th of June 1940?
+4 0
+Italy
+Egypt
+Russia
+Greece
+Who was the Prime Minister of Japan in 2010?
+4 3
+Hideki Tojo
+Tanaka Gilichi
+Inukai Tsuyoshi
+Naoto Kan
+America's national anthem, The Star Spangled Banner, was written during which war?
+4 3
+War of Independence
+US Civil War
+Korean War
+War of 1812
+Who is known by the Chinese as Kongzi?
+4 1
+Li Si
+Confucius
+Khan
+Attila
+In which year did American artist Andy Warhol die?
+4 1
+1954
+1987
+1967
+1973
+The great conqueror Qin Shi Huang was the ruler of which nation from 247-220 BC?
+4 0
+China
+Japan
+Nepal
+India
+Which of the following countries was considered an Axis country during World War II?
+4 0
+Hungary
+Poland
+France
+Ukraine
+Known as the "King of Kings of Persia," who was the founder of the Achaemenid Empire?
+4 2
+Catherine the Great
+Richard the Lionhearted
+Cyrus the Great
+Alexander
+Who taught the great Greek philosopher and scientist Aristotle?
+4 1
+Diodotus
+Plato
+Epicurus
+Socrates
+Whom did Roman emperor Claudius adopt to be his heir?
+4 0
+Nero
+Mark Anthony
+Augustus
+Octavius
+The largest monolith statue in the world, what is the Great Sphinx of Giza made of?
+4 3
+Shale
+Sandstone
+Claystone
+Limestone
+According to the myth, who founded Rome?
+4 1
+Alexander
+Romulus
+Rhea
+Caesar
+Whose name translates to mean "Little Boots"?
+4 0
+Caligula
+Augustus
+Octavos
+Socrates
+Marking the end of the airship era, in what year did the Hindenburg disaster take place?
+4 2
+1927
+1917
+1937
+1947
+Who was Cleopatra's father?
+4 3
+Amenhotep
+Thutmose
+Arsinoe
+Ptolemy XII
+Which of these cheeses dates back to ancient times?
+4 0
+Feta
+Swiss
+Gouda
+Cheddar
+Which nation invented the first seismograph?
+4 2
+Brazil
+India
+China
+Rome
+Which culture is credited with building the first shopping mall?
+4 0
+Roman
+Macedonian
+Incan
+Byzantine
+Regarded by some historians as a fable, which ruler had his entire harem drowned?
+4 3
+Caligula
+Ptolemy III
+Peter the Great
+Sultan Ibrahim I
+Who would have lived in the ancient city Tenochitlan?
+4 3
+The Persians
+The Byzantines
+The Incas
+The Aztecs
+Who wrote a popular erotic book "The Tale of Two Lovers"?
+4 0
+Pope Pius II
+Abraham Lincoln
+Plato
+Catherine the Great
+What was the name of the ritual suicide committed by Samurai Warriors?
+4 0
+Seppuku
+Bugei
+Oshiro
+Eta
+In what year did the infamous Jack the Ripper commit his crimes?
+4 3
+1924
+1854
+1906
+1888
+Currently a painter, in what profession did Alan LaVern Bean find fame?
+4 2
+Politician
+Actor
+Astronaut
+Writer
+Which weapon did John Wilkes Booth use to kill Abraham Lincoln?
+4 1
+A rifle
+A pistol
+A knife
+A sword
+Located in India, who built the mausoleum "Taj Mahal"?
+4 1
+Sher Shah Suri
+Shah Jahan
+Jahangir
+Shah Alam
+Which of these historic figures was dubbed "Scourge of God"?
+4 2
+Fidel Castro
+Joseph Stalin
+Attila the Hun
+Peter the Great
+Married in 1582, who was Anne Hathaway's husband?
+4 0
+William Shakespeare
+Francis Drake
+Sir Francis Bacon
+Henry the Eighth
+Which U.S. President used the slogan "The Buck Stops Here"?
+4 3
+Regan
+Kennedy
+Nixon
+Truman
+Which of these people discovered the tomb of Tutankhamen?
+4 1
+Alexander Thom
+Howard Carter
+Pierre Montet
+Alfred Kidder
+When did Great Britain get the atomic bomb?
+4 0
+1952
+1914
+1867
+1974
+In what year was New Zealand claimed by Great Britain?
+4 0
+1769
+1834
+1634
+1721
+What useful item, still used today, did Lewis Waterman patent in 1884?
+4 2
+The aqualung
+The printing press
+The fountain pen
+The windshield wiper
+When did Jerry Springer become the mayor of Cincinnati?
+4 3
+1994
+1991
+1986
+1977
+Who was the son of Pepin the Short?
+4 1
+Kublai Khan
+Charlemagne
+Plato
+Richard the Lionhearted
+How long did Lady Jane Grey rule England?
+4 2
+29 years
+43 years
+Nine days
+Six years
+In which city is the Liberty Bell located?
+4 1
+Boston
+Philadelphia
+New York City
+Washington, D.C.
+What well known actor from Maryland assassinated Abraham Lincoln?
+4 0
+John Wilkes Booth
+Lewis Powell
+Lee Harvey Oswald
+Jefferson Davis
+Nicknamed the "Red King," who was "King of the Scots" from 1040 until his death in 1057?
+4 3
+Duncan I
+Malcolm III
+Donald III
+Macbeth
+Who was the first woman to sit as a Member of Parliament in the English House of Commons?
+4 3
+Bessie Braddock
+Margaret Bondfield
+Emmeline Pankhurst
+Nancy Astor
+Located in eastern Montana, where did "Custer's Last Stand" occur in 1876?
+4 3
+Little Snake River
+Little Crow Foot
+Little Blood Creek
+Little Big Horn
+Which execution method was used to kill aristocrats during the French Revolution?
+4 0
+The Guillotine
+Hanging, Drawing and Quartering
+The Brazen Bull
+Burning at the Stake
+Where was Richard the Lionheart held prisoner when he returned to Europe?
+4 2
+France
+England
+Austria
+Germany
+What country did the Japanese invade in 1937?
+4 2
+United States
+Philippines
+China
+India
+In what year was Margaret Thatcher elected Prime Minister of the United Kingdom?
+4 3
+1969
+1974
+1983
+1979
+Who was the first actress to earn a million dollars for their role in a film?
+4 3
+Audrey Hepburn
+Bette Davis
+Marilyn Monroe
+Elizabeth Taylor
+Who of the following was shot dead in Dallas on the 24th of November 1963?
+4 1
+Jack Ruby
+Lee Harvey Oswald
+Guy Banister
+John F. Kennedy
+In what year did Soviet Cosmonaut Alexey Leonov make the first spacewalk?
+4 1
+1960
+1965
+1975
+1970
+What war was ended with the signing of an armistice on July 27th 1953?
+4 2
+Soviet war in Afghanistan
+World War II
+Korean War
+Vietnam War

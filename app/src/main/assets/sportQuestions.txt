@@ -1,0 +1,679 @@
+113
+Which is the national sport of Canada?
+4 0
+Lacrosse/Ice hockey 
+Cricket 
+Field hockey
+Volleyball
+Football World Cup has been won by which country for the maximum number of times?
+4 0
+Brazil
+Italy
+Uruguay
+West Germany
+Caddie is related to which sport?
+4 0
+Golf
+Baseball
+Billiards
+Bridge
+Which of the following NFL teams did Tom Brady quarterback to a Super Bowl win?
+4 3
+New York
+Miami
+Dallas
+New England
+If you went to Wimbledon, what sport would you be watching?
+4 2
+Soccer
+Hockey
+Tennis
+Golf
+In what year were the Olympic Games held in Australia?
+4 2
+1996
+1976
+2000
+1984
+What sport does "Wayne Mark Rooney" play?
+4 2
+Basketball
+Baseball
+Soccer
+Football
+In which weight class did Muhammed Ali box?
+4 0
+Heavyweight
+Flyweight
+Lightweight
+Middleweight
+Not including home plate, how many bases are on a baseball field?
+4 1
+Six
+Three
+One
+Two
+Which of the following teams is not a professional hockey team in the NHL?
+4 3
+Lightening
+Islanders
+Bruins
+Lakers
+How many disciplines do female gymnasts compete in?
+4 0
+4
+6
+3
+7
+What sport do the Bills play?
+4 2
+Soccer
+Hockey
+Football
+Basketball
+In which sporting event does Usain Bolt compete?
+4 0
+Sprinting
+Cross Country Skiing
+Pole Vault
+High Jump
+In which sport would you hear the terms bump, set and spike?
+4 2
+Bowling
+Badminton
+Volleyball
+Golf
+Which sport is sometimes called arrows or throwers?
+4 3
+Archery
+Cricket
+Javelin
+Darts
+In the NFL, how long is the field if you do not count the end zones?
+4 2
+150 feet
+1000 feet
+100 yards
+110 yards
+Who was the first and only Canadian born Heavyweight Champion?
+4 0
+Burns
+Johnson
+Willard
+Dempsey
+Which NHL Team are nicknamed the "Coyotes"?
+4 1
+Ottawa
+Arizona
+Calgary
+Vancouver
+Chukkas is the term given to periods played in what sport?
+4 0
+Polo
+Hockey
+Curling
+Ice Hockey
+How many goose feathers does it take to make a shuttlecock?
+4 3
+6
+60
+32
+16
+In Olympic Archery, how far is the competitor from the target?
+4 1
+50m
+70m
+120m
+100m
+Who won the 2013 National Basketball Association (NBA) title?
+4 2
+San Antonio Spurs
+LA Lakers
+Miami Heat
+Chicago Bulls
+Which nation's Rugby Union team are known as the All Blacks?
+4 3
+Australia
+South Africa
+France
+New Zealand
+The brown ball is worth how many points in snooker?
+4 1
+1
+4
+3
+2
+Maria Mednyanszky is a 5 time world champion in what sport?
+4 2
+Tennis
+Athletics
+Table Tennis
+Badminton
+In Greyhound racing, what number trap wears the black and white striped jacket?
+4 0
+6
+3
+5
+4
+In which city do the Steelers compete in the NFL?
+4 3
+Buffalo
+Denver
+Washington
+Pittsburg
+Which NHL franchise holds the record for the most consecutive playoff appearances?
+4 3
+Montreal Canadiens
+Colorado Avalanche
+Edmonton Oilers
+Boston Bruins
+Wrigley Field is the home to which MLB Team?
+4 2
+New York Mets
+St Louis Cardinals
+Chicago Cubs
+Colorado Rockies
+Conversions are worth how many points in Rugby Union?
+4 3
+4
+5
+3
+2
+Which American baseball great holds the record for 688 career intentional walks?
+4 2
+Hank Aaron
+Willie Mays
+Barry Bonds
+Ken Griffey Jr.
+Which color does Tiger Woods always wear on the last day of a golf tournament?
+4 2
+White
+Black
+Red
+Green
+Bora Milutinovic has coached how many different teams at the World Cup?
+4 1
+1
+5
+7
+0
+Name the winter sport in which five judges award points based on the K Line?
+4 0
+Ski Jump
+Alpine Skiing 
+Bobsleigh
+Luge
+How many times did Red Rum win the Grand National?
+4 2
+One
+Five
+Three
+Two
+In what year was the first UEFA European Football Championship held?
+4 3
+1956
+1964
+1968
+1960
+The three Ws of West Indies cricket were Worrell, Weekes and who else?
+4 3
+Wilson
+Warrington
+Wilkinson
+Walcott
+Who was the first boxer to win the World Heavyweight title 3 times?
+4 0
+Ali
+Tyson
+Lewis
+Foreman
+Which state is home to the NBA basketball team the Spurs?
+4 1
+Florida
+Texas
+Washington
+California
+What color belt do beginners start with in Karate?
+4 3
+Brown
+Green
+Yellow
+White
+Which of these events is not found in the Modern Pentathlon?
+4 2
+Swimming
+Fencing
+Rowing
+Horse Riding
+Winning a tennis set 6-0 is often referred to as a...?
+4 1
+Bap
+Bagel
+Bread
+Bun
+What is the maximum possible score in a game of ten pin bowling?
+4 2
+500
+150
+300
+450
+The Harry Sunderland Trophy is awarded in which sport?
+4 0
+Rugby League
+Cricket
+Soccer
+Rugby Union
+What is the name of San Diego's NFL pro football team?
+4 1
+Jaguars
+Chargers
+Falcons
+Ravens
+Who is the only player to score over 100 points in a single game in the NBA?
+4 2
+Larry Bird
+Earvin Johnson
+Wilt Chamberlain
+Kareem Abdul Jabbar
+Who was the first American to win the US Open Golf Championship in 1911?
+4 1
+Bobby Jones
+Johnny McDermott 
+Ray Ouimet
+Walter Hagen
+Known as the "Belarusian Swan," Svetlana Boginskaya was famous in what sport?
+4 0
+Gymnastics
+Shot Put
+Tennis
+Skating
+In the boxing world, who was the "Brown Bomber"?
+4 1
+Mohammed Ali
+Joe Louis
+Mike Tyson
+Joe Frazier
+In the MLB, where do the Reds call home?
+4 3
+San Francisco
+Arizona
+Colorado
+Cincinnati
+Which cyclist won the Giro d'Italia in 2014?
+4 3
+Ivan Basso
+Paolo Savoldelli
+Ryder Hesjedal
+Nairo Quintana
+In addition to figure skating, what sport did Elvis Stojko compete in?
+4 0
+Karate
+Archery
+Bob sledding
+Golf
+Which sport awards the Davis Cup?
+4 3
+Soccer
+Cricket
+Hockey
+Tennis
+At the 2012 Olympics, which event did "The Flying Squirrel" compete in?
+4 2
+Bobsledding
+Cycling
+Gymnastics
+Luge
+Which sport awards the Ryder's Cup?
+4 3
+Football
+Baseball
+Hockey
+Golf
+Where was the Canadian Grey Cup played in 2015?
+4 1
+Edmonton
+Winnipeg
+Toronto
+Ottawa
+Which American Football player had the nickname "Sweetness"?
+4 3
+Tom Brady
+Earl Campbell
+Damon Allen
+Walter Payton
+Where was former Major League Baseball outfielder Jose Canseco born?
+4 3
+Spain
+Mexico
+America
+Cuba
+Which of these horses holds the record for winning the most money?
+4 3
+John Henry
+Silver Charm
+Lava Man
+Curlin
+Which of these games used to be played with a live animal serving as the ball?
+4 2
+Soccer
+Golf
+Polo
+Coquet
+What is the maximum number of clubs that a golfer can carry in a tournament?
+4 3
+9
+6
+12
+14
+What team did soccer great Pele join in 1975?
+4 0
+Cosmos
+Knights
+Strikers
+Rooks
+When was "Sports Illustrated" first published?
+4 0
+1954
+1983
+1965
+1971
+In 2004, how many times was Barry Bonds walked?
+4 3
+328
+401
+157
+232
+Which famous athlete was born Ferdinand Lewis Alcindor Jr.?
+4 3
+Leon Sphinx
+Tiger Woods
+Mohammed Ali
+Kareem Abdul-Jabbar
+Which of the following cups might you win in yacht racing?
+4 1
+Stanley
+America
+Norris
+Silver
+After the U.S, which country claims the most professional baseball players in the MLB?
+4 1
+Cuba
+Dominican Republic
+Peru
+Russia
+What position did football great Franco Harris play?
+4 3
+Tight end
+Quarterback
+Cornerback
+Fullback
+Who lost the World Series in 2015?
+4 3
+Kansas City Royals
+Toronto Blue Jays
+Baltimore Orioles
+New York Mets
+Which of these events is not part of the modern pentathlon?
+4 3
+Swimming
+Fencing
+Show jumping
+Javelin
+What kind of surface is used at the tennis Wimbledon Championships?
+4 3
+Clay
+Concrete
+Carpet
+Grass
+Which famous boxer was nicknamed "Thunder"?
+4 3
+Donovan Ruddock
+Henry Armstrong
+Bobby Chacon
+Arturo Gatti
+How often do sailors compete in the "Volvo Ocean Race"?
+4 3
+Every five years
+Every Four years
+Every year
+Every three years
+In 2010, which skater won the title of female singles Olympic gold medalist?
+4 2
+Sarah Hughes
+Tara Lipinski
+Kim Yu-Na
+Kristi Yamaguchi
+In the sport of curling, how many rings make up the house?
+4 0
+Four
+Nine
+Seven
+Five
+In soccer, how many players are on the field for each team?
+4 2
+15
+7
+11
+9
+Which sport uses the terms point guard and shooting guard?
+4 3
+Rugby
+Football
+Curling
+Basketball
+When was the biathlon made an official Olympic Sport?
+4 3
+1936
+1924
+1948
+1992
+If you were at Mavericks, what sport would you be expecting to see?
+4 3
+Golf
+NASCAR
+Tennis
+Surfing
+What sport does Matt Kenseth participate in?
+4 1
+Basketball
+NASCAR
+Golf
+Soccer
+Where does hockey star Steve Yzerman come from?
+4 0
+Canada
+Slovakia
+Sweden
+Russia
+Who won the Masters Golf Tournament in 2012?
+4 3
+Ben Crenshaw
+Fred Couples
+Ángel Cabrera
+Bubba Watson
+What sport is normally played on a field that is 300 yards long and 160 yards wide?
+4 2
+Football
+Rugby
+Polo
+Soccer
+Which of these sports is closest to the Italian sport of Bocce?
+4 1
+Broomball
+Bowling
+Orienteering
+Darts
+What sport is done in a building normally called a velodrome?
+4 1
+Dressage
+Cycling
+Swimming
+Karate
+What position does NHL hockey great Zdeno Chara play?
+4 3
+Center
+Left wing
+Goalie
+Defence
+In what sport would you use a sloop or a cutter?
+4 3
+Snooker
+Skiing
+Bob sledding
+Sailing
+Which famous person is credited with the term "Caddie"?
+4 0
+Mary Queen of Scots
+Ben Hogan
+John Ball
+Jim Barnes
+When was the first baseball game televised?
+4 3
+1952
+1963
+1946
+1939
+Who won the men's gold medal in figure skating at the 2006 Olympic Games?
+4 3
+Victor Petrenko
+Elvis Stojko
+Alexei Kulik
+Evgeni Plushenko
+In which sport would you hear the terms basket, edge and crud?
+4 0
+Skiing
+NASCAR
+Archery
+Swimming
+Which football great was nicknamed "The Gunslinger"?
+4 1
+Wes Welker
+Brett Favre
+Jay Cutler
+Drew Brees
+In which sport would you use the terms bull calf, high ton, hot toddy and oche?
+4 2
+Table tennis
+Skating
+Darts
+Bowling
+Which sport awards the Podoloff Cup?
+4 3
+Tennis
+Golf
+Baseball
+Basketball
+In the NFL, how many balls is the home team required to provide?
+4 1
+0
+24
+36
+12
+Which sport would you play at Wimbledon?
+4 0
+Tennis
+Golf
+Archery
+Horse racing
+O.J. Simpson played which sport?
+4 3
+Hockey
+Boxing
+Baseball
+Football
+If you were watching Nadia Comaneci, which sport would you be watching?
+4 0
+Gymnastics
+Tennis
+Skiing
+Skating
+What is Edson Arantes do Nascimento better known as?
+4 3
+Mugsy
+Wee
+Star
+Pele
+What position did legendary ball player Willie Mays play?
+4 2
+Catcher
+Right field
+Center Field
+Shortstop
+Which country had been scheduled to hold the Olympics in 1940?
+4 2
+Spain
+Japan
+Finland
+Italy
+What was William Lee Shoemaker's claim to fame?
+4 3
+Skier
+Boxer
+Baseball player
+Jockey
+Which golfing great was nicknamed The Wee Iceman?
+4 2
+Gene Sarazen
+Jack Nicklaus
+Ben Hogan
+Gene Player
+Who was known as the Vaulting Vicar?
+4 0
+Bob Richards
+Jeff Hartwig
+Danny Ecker
+Tim Lobinger
+Which sport awards the Davis Cup?
+4 3
+Baseball
+Bowling
+Soccer
+Tennis
+When not on the golf course, what was the occupation of Cary Middlecoff?
+4 1
+Journalist
+Dentist
+Actor
+Painter
+The career of tennis great Maureen Connolly was cut short by what event?
+4 3
+Car accident
+Boating accident
+Skiing accident
+Horseback riding accident
+Who was referred to as The Wizard of the Dribble?
+4 2
+Kobe Bryant
+Johnny Giles
+Stanley Matthews
+Earvin Johnson
+Who set an archery world record at the 2012 Olympic Games?
+4 3
+Denis Gankin
+Brady Nelson
+Xing Yu
+Im Dong-Hyun
+Who, as of 2013, was the last horse to achieve the Triple Crown?
+4 2
+Assault
+War Emblem
+Affirmed
+Big Brown
+Which nation claims the famous sprinter Usain Bolt?
+4 2
+America
+South Africa
+Jamaica
+Brazil
+In 1968, who threw 13 shutouts and set a record with an ERA of just 1.12?
+4 0
+Bob Gibson
+Warren Spahn
+Sandy Koufax
+Don Drysdale
+What Atlanta university cheers on teams called the Stormy Petrels?
+4 1
+Wesleyan College
+Oglethorpe University
+Morehouse College
+Emory University

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    tools:context=".MainActivity"
+    android:layout_gravity="bottom"
+    android:id="@+id/action0">
+
+    <Button
+        android:textColor="@color/facebookgrey2"
+        android:textAllCaps="false"
+        style="?android:attr/borderlessButtonStyle"
+        android:fontFamily="sans-serif-thick"
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:id="@+id/numQues"
+        android:layout_alignParentTop="true"
+        android:onClick="choose"
+        android:layout_marginTop="65dp"
+        android:drawableTop="@drawable/stop"
+        android:drawableRight="@drawable/arrowright"
+        android:background="@drawable/settingsbutton"/>
+
+    <Button
+        android:textColor="@color/facebookgrey2"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-thick"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:text="Pick Categories"
+        android:id="@+id/category"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="186dp"
+        android:onClick="goToCategory"
+        android:drawableTop="@drawable/categories"
+        android:drawableRight="@drawable/arrowright"
+        android:background="@drawable/settingsbutton"
+         />
+
+    <Button
+        android:textColor="@color/facebookgrey2"
+        android:textSize="15dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:fontFamily="sans-serif-thick"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:text="Reset to default"
+        android:id="@+id/reset"
+        android:drawableRight="@drawable/arrowright2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="307dp"
+        android:onClick="reset"
+        android:drawableTop="@drawable/default1"
+        android:textAllCaps="false"
+        android:background="@drawable/settingsbutton"
+        />
+
+
+    <!--<ImageButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/abort"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:background="@drawable/backbutton1"/>-->
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/colorect"
+
+        />
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:text="Settings"-->
+        <!--android:id="@+id/title"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_marginLeft="65dp"-->
+        <!--android:layout_marginTop="19dp"-->
+        <!--android:fontFamily="sans-serif-thin"-->
+        <!--android:textSize="29dp"-->
+
+        <!--/>-->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/settings"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="9dp"
+        android:id="@+id/icon"
+        android:layout_centerHorizontal="true"
+
+
+        android:layout_alignParentTop="true"
+
+        android:fontFamily="sans-serif-thin"
+
+
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/abort"
+        android:background="@drawable/backbutton1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="goBack"
+        android:layout_marginLeft="0dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/locked"
+        android:layout_marginTop="455dp"
+        android:layout_centerHorizontal="true"
+
+        />
+
+
+</RelativeLayout>
+
+

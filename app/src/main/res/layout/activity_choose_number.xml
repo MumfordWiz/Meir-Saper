@@ -1,0 +1,182 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:id="@+id/action0">
+
+    <LinearLayout
+        android:id="@+id/first_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+
+
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:text="3 Questions"
+                android:drawableBottom="@drawable/numberthree"
+                android:textAllCaps="false"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="@android:color/white"
+                android:background="@drawable/numberwindow"
+                android:onClick="threePressed"
+                android:textSize="25sp"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:paddingRight="3dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:drawableBottom="@drawable/numberone"
+                android:text="1 Question"
+                android:textAllCaps="false"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="@android:color/white"
+                android:background="@drawable/numberwindow"
+                android:onClick="onePressed"
+                android:textSize="25sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout android:id="@+id/second_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingBottom="3dp"
+            android:layout_height="fill_parent">
+            <Button
+                android:drawableBottom="@drawable/numberfive"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:text="5 Questions"
+                android:textAllCaps="false"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="@android:color/white"
+                android:background="@drawable/numberwindow"
+                android:onClick="fivePressed"
+                android:textSize="25sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:paddingRight="3dp"
+            android:paddingBottom="3dp">
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:onClick="eightPressed"
+                android:drawableBottom="@drawable/numbereight"
+                android:text="8 Questions"
+                android:textAllCaps="false"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="@android:color/white"
+                android:background="@drawable/numberwindow"
+                android:textSize="25sp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/third_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingBottom="3dp"
+            >
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+
+
+                android:drawableBottom="@drawable/numberten"
+                android:onClick="tenPressed"
+                android:text="10 Questions"
+
+                android:textAllCaps="false"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="@android:color/white"
+                android:background="@drawable/bottombutton"
+
+                android:textSize="25sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:paddingRight="3dp"
+            android:paddingBottom="3dp">
+
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:drawableBottom="@drawable/infinity"
+                android:text="∞"
+                android:onClick="infinityPressed"
+
+
+                android:textAllCaps="false"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="@android:color/white"
+                android:background="@drawable/infinitybutton"
+
+                android:textSize="50sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <!--<View-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="3dp"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_marginBottom="80dp"-->
+    <!--android:background="@drawable/categorywindow"-->
+    <!--/>-->
+
+</LinearLayout>
+
+

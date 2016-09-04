@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:id="@+id/re"
+
+    tools:context="com.example.david.locktrivia.ScreenJump"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:id="@+id/Thequestion"
+        android:paddingBottom="18dip"
+        android:paddingTop="18dip"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="23dp"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#f3ae1b"
+        android:layout_marginTop="10dp"
+        android:id="@+id/logo"
+        android:src="@drawable/screenjumplock"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="45dp"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangularstopbottun"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="NOT NOW"
+        android:layout_marginBottom="38dp"
+        android:onClick="terminate"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="25sp"
+        android:textColor="#fff" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/radioButton1"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="70dp"
+        android:paddingBottom="70dp"
+        android:textSize="15sp"
+        android:layout_below="@+id/Thequestion"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:singleLine="true"
+        android:fontFamily="sans-serif-thin"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/radioButton2"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:layout_below="@+id/radioButton1"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="3dp"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="15sp"
+        android:singleLine="true"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/radioButton3"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:layout_below="@+id/radioButton2"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="3dp"
+        android:textColor="@android:color/white"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+        android:singleLine="true"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-thin"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:id="@+id/radioButton4"
+        android:layout_below="@+id/radioButton3"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="3dp"
+        android:paddingTop="25dp"
+        android:paddingBottom="70dp"
+        android:singleLine="true"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-thin"
+        />
+
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stats"
+        android:text="stats stast stast stast"
+        android:visibility="visible"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp" />
+
+</RelativeLayout>
