@@ -25,7 +25,7 @@ public class info extends AppCompatActivity {
 
         Handler handler = new Handler();
         ObjectAnimator transAnimationleft= ObjectAnimator.ofFloat(leftArrow, "x", 750, 680);
-        ObjectAnimator transAnimationright= ObjectAnimator.ofFloat(rightArrow, "x", 65, 135);
+        ObjectAnimator transAnimationright= ObjectAnimator.ofFloat(rightArrow, "x", 107, 177);
         transAnimationleft.setDuration(1300);
         transAnimationright.setDuration(1300);//set duration
         transAnimationright.start();

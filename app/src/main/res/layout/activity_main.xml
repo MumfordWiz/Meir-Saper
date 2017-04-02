@@ -7,7 +7,7 @@
     tools:context=".MainActivity"
     android:layout_gravity="bottom"
     android:id="@+id/action0">
-    <ImageView
+<!--   <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@android:color/white"
@@ -21,8 +21,8 @@
         android:fontFamily="sans-serif-thin"
         android:textSize="40dp"
 
-        />
-    <RelativeLayout
+        /> -->
+<!--    <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
@@ -53,9 +53,9 @@
 
                 />
 
-        </RelativeLayout>
+        </RelativeLayout>-->
 
-        <RelativeLayout
+<!--        <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -88,6 +88,7 @@
 
 
     </RelativeLayout>
+-->
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -110,7 +111,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Reset Stats"
+        android:text="Stats"
         android:onClick="reset"
         android:id="@+id/button3"
         android:fontFamily="sans-serif-thin"
@@ -163,4 +164,4 @@
 
 
 
-</RelativeLayout>
+    </RelativeLayout>
