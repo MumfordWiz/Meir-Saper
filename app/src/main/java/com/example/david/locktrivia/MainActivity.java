@@ -24,8 +24,7 @@ import org.w3c.dom.Text;
 public class MainActivity extends AppCompatActivity {
     boolean turnOn = true;
     boolean checked;
-    int wrongAnswers, rightAnswers;
-    String wAnswers, rAnswers;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,26 +36,15 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences SP = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
 
         checked = SP.getBoolean("onOff", false);
-        wrongAnswers = SP.getInt("wrongCounter", 0);
-        rightAnswers = SP.getInt("rightCounter", 0);
-
-        wAnswers = Integer.toString(wrongAnswers);
-        rAnswers = Integer.toString(rightAnswers);
+//        wrongAnswers = SP.getInt("wrongCounter", 0);
+//        rightAnswers = SP.getInt("rightCounter", 0);
+//
+//        wAnswers = Integer.toString(wrongAnswers);
+//        rAnswers = Integer.toString(rightAnswers);
 
         final View settings = (View)findViewById(R.id.button2);
         final View stats = (View)findViewById(R.id.button3);
         final View info = (View)findViewById(R.id.button4);
-        //final View wrongIcon = (View)findViewById(R.id.wrongicon);
-        //final View rightIcon = (View)findViewById(R.id.righticon);
-        //final TextView wrong = (TextView)findViewById(R.id.wronganswers);
-        //final TextView right = (TextView)findViewById(R.id.rightanswers);
-        //final View logo = (View)findViewById(R.id.logot);
-
-        //wrong.setVisibility(View.GONE);
-        //right.setVisibility(View.GONE);
-        //wrongIcon.setVisibility(View.GONE);
-        //rightIcon.setVisibility(View.GONE);
-        //logo.setVisibility(View.GONE);
         settings.setVisibility(View.GONE);
         stats.setVisibility(View.GONE);
         info.setVisibility(View.GONE);
@@ -85,21 +73,10 @@ public class MainActivity extends AppCompatActivity {
                 settings.setVisibility(View.VISIBLE);
                 stats.setVisibility(View.VISIBLE);
                 info.setVisibility(View.VISIBLE);
-                //wrong.setVisibility(View.VISIBLE);
-                //right.setVisibility(View.VISIBLE);
-                //rightIcon.setVisibility(View.VISIBLE);
-                //wrongIcon.setVisibility(View.VISIBLE);
-                //logo.setVisibility(View.VISIBLE);
 
-
-                //wrong.setText(wAnswers);
-                //right.setText(rAnswers);
-                //logo.setVisibility(View.VISIBLE);
-                ;
             }
         }, 2430);
 
-       // transAnimation.setRepeatCount(Animation.INFINITE);
 
     }
 
@@ -151,31 +128,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void reset(View v)
+    public void GoToStats(View v)
     {
-        SharedPreferences SP = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-        SharedPreferences.Editor editor =  SP.edit();
-
-        editor.putInt("wrongCounter", 0);
-        editor.putInt("rightCounter", 0);
-        editor.commit();
-
-        wrongAnswers = SP.getInt("wrongCounter", 0);
-        rightAnswers = SP.getInt("rightCounter", 0);
-
-        //TextView wrong = (TextView)findViewById(R.id.wronganswers);
-        //TextView right = (TextView)findViewById(R.id.rightanswers);
-
-        wAnswers = Integer.toString(wrongAnswers);
-        rAnswers = Integer.toString(rightAnswers);
-
-        //wrong.setText(wAnswers);
-        //right.setText(rAnswers);
         startActivity(new Intent(this, Stats.class));
         overridePendingTransition( R.anim.slide_in_up, R.anim.slide_out_up );
-
-
-
 
     }
 
@@ -185,21 +141,7 @@ public class MainActivity extends AppCompatActivity {
     {
         super.onResume();
 
-        //TextView wrong = (TextView)findViewById(R.id.wronganswers);
-        //TextView right = (TextView)findViewById(R.id.rightanswers);
-
-
         SharedPreferences SP = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-
-
-        wrongAnswers = SP.getInt("wrongCounter", 0);
-        rightAnswers = SP.getInt("rightCounter", 0);
-
-        wAnswers = Integer.toString(wrongAnswers);
-        rAnswers = Integer.toString(rightAnswers);
-
-        //wrong.setText(wAnswers);
-        //right.setText(rAnswers);
 
         checked = SP.getBoolean("onOff", false);
         if (checked) {

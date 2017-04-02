@@ -22,73 +22,7 @@
         android:textSize="40dp"
 
         /> -->
-<!--    <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:gravity="center_vertical" >
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:gravity="center"
-            android:layout_marginTop="80dp"
-            android:layout_marginRight="40dp">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/wrongicon"
-                android:src="@drawable/wronganswers"
-                />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/onRed"
-                android:id="@+id/wronganswers"
-                android:layout_below="@id/wrongicon"
-                android:layout_centerInParent="true"
-                android:fontFamily="sans-serif-medium"
-                android:textSize="30sp"
-
-                />
-
-        </RelativeLayout>-->
-
-<!--        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_alignParentLeft="true"
-            android:layout_marginTop="80dp"
-            android:layout_marginLeft="40dp">
-
-            <ImageView
-                android:id="@+id/righticon"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:src="@drawable/rightanswers"
-                />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/onGreen"
-                android:layout_centerInParent="true"
-                android:layout_below="@+id/righticon"
-                android:id="@+id/rightanswers"
-                android:fontFamily="sans-serif-medium"
-                android:textSize="30sp"
-                />
-
-
-
-        </RelativeLayout>
-
-
-    </RelativeLayout>
--->
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -112,7 +46,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Stats"
-        android:onClick="reset"
+        android:onClick="GoToStats"
         android:id="@+id/button3"
         android:fontFamily="sans-serif-thin"
         android:background="@drawable/button_color"

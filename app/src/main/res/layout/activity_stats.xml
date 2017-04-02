@@ -31,20 +31,6 @@
 
         />
 
-    <!--<TextView-->
-    <!--android:layout_width="wrap_content"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:textColor="@android:color/white"-->
-    <!--android:text="Settings"-->
-    <!--android:id="@+id/title"-->
-    <!--android:layout_alignParentTop="true"-->
-    <!--android:layout_alignParentLeft="true"-->
-    <!--android:layout_marginLeft="65dp"-->
-    <!--android:layout_marginTop="19dp"-->
-    <!--android:fontFamily="sans-serif-thin"-->
-    <!--android:textSize="29dp"-->
-
-    <!--/>-->
 
     <ImageView
         android:layout_width="wrap_content"
@@ -54,8 +40,6 @@
         android:layout_marginTop="9dp"
         android:id="@+id/icon"
         android:layout_centerHorizontal="true"
-
-
         android:layout_alignParentTop="true"
 
         android:fontFamily="sans-serif-thin"
@@ -67,52 +51,115 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/rightsign"
+        android:id="@+id/right_str"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="100dp"
         android:layout_marginLeft="50dp"
         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/onGreen"
+        android:layout_below="@+id/right_str"
+        android:id="@+id/rightanswers"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="30sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp" />
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/wrongsign"
+        android:id="@+id/wrong_str"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="100dp"
         android:layout_marginRight="50dp"
 
         />
-
-    <Button
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="50dp"
-        android:drawableTop="@drawable/resetsign"
-        android:background="@drawable/resetstats"
-        android:onClick="reset"
-        android:text="Reset Stats"
-        android:fontFamily="sans-serif"
-        android:textColor="@color/mainred"
-
-        />
-
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/abort"
-        android:background="@drawable/backbutton1"
+        android:textColor="@color/onRed"
+        android:id="@+id/wronganswers"
+        android:layout_below="@id/wrong_str"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="30sp"
+        android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:onClick="goBack"
-        android:layout_marginLeft="0dp"
-        />
+        android:layout_marginRight="50dp"/>
+    <!--<RelativeLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:gravity="center_vertical" >-->
+        <!--<RelativeLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_marginTop="80dp"-->
+            <!--android:layout_marginRight="40dp">-->
+            <!---->
+        <!--</RelativeLayout>-->
+
+              <!--<RelativeLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:layout_marginTop="80dp"-->
+                    <!--android:layout_marginLeft="40dp">-->
+        <!---->
+                    <!--<ImageView-->
+                        <!--android:id="@+id/righticon"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_alignParentLeft="true"-->
+                        <!--android:src="@drawable/rightanswers"-->
+                        <!--/>-->
+        <!---->
+
+        <!---->
+        <!---->
+        <!---->
+                <!--</RelativeLayout>-->
+        <!---->
+        <!---->
+            <!--</RelativeLayout>-->
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="50dp"
+                android:drawableTop="@drawable/resetsign"
+                android:background="@drawable/resetstats"
+                android:onClick="reset"
+                android:text="Reset Stats"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/mainred"
+
+                />
+
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/abort"
+                android:background="@drawable/backbutton1"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:onClick="goBack"
+                android:layout_marginLeft="0dp"
+                />
 
 
 
 
-</RelativeLayout>
+        </RelativeLayout>
 
 
