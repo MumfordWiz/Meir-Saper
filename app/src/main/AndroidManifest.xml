@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.david.locktrivia" >
+    package="com.example.david.locktrivia">
 
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
@@ -12,11 +12,11 @@
         android:label="@string/app_name"
         android:minSdkVersion="17"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar" >
-             >
+            android:theme="@style/AppTheme.NoActionBar">
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,35 +28,29 @@
             android:name=".ScreenJump"
             android:excludeFromRecents="true"
             android:launchMode="singleInstance"
-            android:theme="@style/AppTheme.NoActionBar3" >
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar3" />
         <activity
             android:name=".MySettings"
             android:label="TriviaLock >> Settings"
-            android:theme="@style/AppTheme.NoActionBar4" >
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar4" />
 
         <service
             android:name=".MyService"
             android:enabled="true"
-            android:exported="true" >
-        </service>
+            android:exported="true" />
 
-        <activity android:name=".AppPreference" >
-        </activity>
+        <activity android:name=".AppPreference" />
         <activity
             android:name=".PickCategory"
-            android:theme="@style/AppTheme.NoActionBar6" >
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar6" />
         <activity
             android:name=".chooseNumber"
-            android:theme="@style/AppTheme.NoActionBar5" >
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar5" />
         <activity
             android:name=".info"
             android:label="@string/title_activity_info"
-            android:theme="@style/AppTheme.NoActionBar7" >
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar7" />
+        <activity android:name=".Stats" android:theme="@style/AppTheme.NoActionBar4"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    tools:context="com.example.david.locktrivia.Stats"
+    android:layout_gravity="bottom"
+    >
+
+
+
+
+    <!--<ImageButton-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:src="@drawable/abort"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:background="@drawable/backbutton1"/>-->
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/colorect"
+
+        />
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:text="Settings"-->
+    <!--android:id="@+id/title"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_marginLeft="65dp"-->
+    <!--android:layout_marginTop="19dp"-->
+    <!--android:fontFamily="sans-serif-thin"-->
+    <!--android:textSize="29dp"-->
+
+    <!--/>-->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/stats"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="9dp"
+        android:id="@+id/icon"
+        android:layout_centerHorizontal="true"
+
+
+        android:layout_alignParentTop="true"
+
+        android:fontFamily="sans-serif-thin"
+
+
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rightsign"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/wrongsign"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="50dp"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:drawableTop="@drawable/resetsign"
+        android:background="@drawable/resetstats"
+        android:onClick="reset"
+        android:text="Reset Stats"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/mainred"
+
+        />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/abort"
+        android:background="@drawable/backbutton1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="goBack"
+        android:layout_marginLeft="0dp"
+        />
+
+
+
+
+</RelativeLayout>
+
+

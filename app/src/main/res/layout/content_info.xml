@@ -11,28 +11,30 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableTop="@drawable/like"
-        android:fontFamily="sans-serif-medium"
+        android:drawableTop="@drawable/exitinfo"
+        android:fontFamily="sans-serif-thin"
         android:id="@+id/like"
         android:onClick="getOut"
 
-        android:text="Got it!"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="70dp"
+
+
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="0dp"
         android:layout_centerHorizontal="true"
-        android:layout_above="@id/button2"
+
 
         android:background="@drawable/likebutton"
-        android:textColor="@color/main1"
-        android:textSize="11dp"
+        android:textColor="@android:color/white"
+
 
 
         />
-
+    <!--android:layout_above="@id/button2"-->
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toEndOf="@id/like"
+
         android:layout_centerInParent="true"
         android:src="@drawable/leftarrow"
         android:id="@+id/leftarrow"
@@ -45,8 +47,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/rightarrow"
-        android:layout_toStartOf="@id/like"
+
         android:layout_centerInParent="true"
+
         android:id="@+id/rightarrow"
         />
 

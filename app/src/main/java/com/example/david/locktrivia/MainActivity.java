@@ -147,7 +147,7 @@ public class MainActivity extends AppCompatActivity {
     public void showInfo(View v)
     {
         startActivity(new Intent(this, info.class));
-
+        overridePendingTransition(0, 0);
 
     }
 
@@ -171,6 +171,8 @@ public class MainActivity extends AppCompatActivity {
 
         //wrong.setText(wAnswers);
         //right.setText(rAnswers);
+        startActivity(new Intent(this, Stats.class));
+        overridePendingTransition( R.anim.slide_in_up, R.anim.slide_out_up );
 
 
 

@@ -116,7 +116,7 @@
         android:id="@+id/button3"
         android:fontFamily="sans-serif-thin"
         android:background="@drawable/button_color"
-        android:drawableTop="@drawable/reset"
+        android:drawableTop="@drawable/stats"
         android:textColor="@android:color/white"
         android:textSize="14sp"
 
@@ -134,7 +134,7 @@
         android:id="@+id/button4"
         android:fontFamily="sans-serif-thin"
         android:background="@drawable/button_color"
-        android:drawableTop="@drawable/info"
+        android:drawableTop="@drawable/information"
         android:textColor="@android:color/white"
         android:textSize="14sp"
         android:layout_alignParentBottom="true"

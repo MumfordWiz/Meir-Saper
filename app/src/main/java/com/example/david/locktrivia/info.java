@@ -35,9 +35,11 @@ public class info extends AppCompatActivity {
 
     }
 
+
     public void getOut(View v)
     {
         finish();
+        overridePendingTransition(0,0);
     }
 
 }
