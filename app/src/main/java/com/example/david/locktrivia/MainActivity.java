@@ -3,6 +3,7 @@ package com.example.david.locktrivia;
 
 import android.animation.ObjectAnimator;
 import android.app.Dialog;
+import android.content.Context;
 import android.content.Intent;
 
 import android.content.SharedPreferences;
@@ -12,6 +13,7 @@ import android.preference.PreferenceManager;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.DisplayMetrics;
 import android.view.View;
 
 import android.view.animation.Animation;
@@ -63,8 +65,12 @@ public class MainActivity extends AppCompatActivity {
         }else {
             stopService(new Intent(this, MyService.class));
         }
+        DisplayMetrics displayMetrics = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
+        int height = displayMetrics.heightPixels;
+        int width = displayMetrics.widthPixels;
         Handler handler = new Handler();
-        ObjectAnimator transAnimation= ObjectAnimator.ofFloat(onButton, "y", -500, 750);
+        ObjectAnimator transAnimation= ObjectAnimator.ofFloat(onButton, "translationY", -1500, (height/16));
         transAnimation.setDuration(3000);//set duration
         transAnimation.start();//start animation
 

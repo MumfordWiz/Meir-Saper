@@ -85,7 +85,7 @@
         android:onClick="switchService"
 
         android:text="Off"
-        android:layout_alignParentBottom="true"
+
         android:layout_marginBottom="200dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"

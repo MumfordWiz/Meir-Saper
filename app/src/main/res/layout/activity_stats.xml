@@ -54,20 +54,30 @@
         android:id="@+id/right_str"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="130dp"
         android:layout_marginLeft="50dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/locked"
+        android:layout_centerVertical="true"
+
+        android:layout_centerHorizontal="true"
+
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/onGreen"
-        android:layout_below="@+id/right_str"
+        android:textColor="@color/facebook2"
+
         android:id="@+id/rightanswers"
         android:fontFamily="sans-serif-medium"
         android:textSize="30sp"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="50dp" />
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="88dp" />
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -75,21 +85,21 @@
         android:id="@+id/wrong_str"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="130dp"
         android:layout_marginRight="50dp"
 
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/onRed"
+        android:textColor="@color/facebook2"
         android:id="@+id/wronganswers"
-        android:layout_below="@id/wrong_str"
+
         android:fontFamily="sans-serif-medium"
         android:textSize="30sp"
         android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginRight="50dp"/>
+        android:layout_centerVertical="true"
+        android:layout_marginRight="88dp"/>
     <!--<RelativeLayout-->
         <!--android:layout_width="fill_parent"-->
         <!--android:layout_height="wrap_content"-->

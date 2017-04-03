@@ -7,6 +7,7 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.DisplayMetrics;
 import android.view.View;
 import android.view.animation.Animation;
 import android.widget.ImageView;
@@ -22,10 +23,17 @@ public class info extends AppCompatActivity {
 
         ImageView leftArrow = (ImageView)findViewById(R.id.leftarrow);
         ImageView rightArrow = (ImageView)findViewById(R.id.rightarrow);
+        //leftArrow.layout();
 
+        DisplayMetrics displayMetrics = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
+        int height = displayMetrics.heightPixels;
+        int width = displayMetrics.widthPixels;
+        leftArrow.setY(height/(2.1f));
+        rightArrow.setY(height/(2.1f));
         Handler handler = new Handler();
-        ObjectAnimator transAnimationleft= ObjectAnimator.ofFloat(leftArrow, "x", 750, 680);
-        ObjectAnimator transAnimationright= ObjectAnimator.ofFloat(rightArrow, "x", 107, 177);
+        ObjectAnimator transAnimationleft= ObjectAnimator.ofFloat(leftArrow, "translationX",width/(1.3f), width/(1.6f));
+        ObjectAnimator transAnimationright= ObjectAnimator.ofFloat(rightArrow, "translationX", width/(38f), width/(6.2f));
         transAnimationleft.setDuration(1300);
         transAnimationright.setDuration(1300);//set duration
         transAnimationright.start();
