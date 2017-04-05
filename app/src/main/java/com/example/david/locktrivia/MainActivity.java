@@ -21,11 +21,13 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
+import android.media.MediaPlayer;
 //meir franco
 
 public class MainActivity extends AppCompatActivity {
     boolean turnOn = true;
     boolean checked;
+    MediaPlayer mp;
 
 
     @Override
@@ -36,13 +38,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         SharedPreferences SP = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+//        mp = MediaPlayer.create(getApplicationContext(), R.raw.lock);
 
         checked = SP.getBoolean("onOff", false);
-//        wrongAnswers = SP.getInt("wrongCounter", 0);
-//        rightAnswers = SP.getInt("rightCounter", 0);
-//
-//        wAnswers = Integer.toString(wrongAnswers);
-//        rAnswers = Integer.toString(rightAnswers);
 
         final View settings = (View)findViewById(R.id.button2);
         final View stats = (View)findViewById(R.id.button3);
@@ -94,6 +92,15 @@ public class MainActivity extends AppCompatActivity {
 
 
         Button tg = (Button)findViewById(R.id.button);
+        if(mp != null)
+        {
+            mp.stop();
+            mp.release();
+        }
+        mp = MediaPlayer.create(getApplicationContext(), R.raw.lock);
+        if(mp != null) {
+            mp.start();
+        }
 
         if(!checked){
             checked = true;
