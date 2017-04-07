@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LockTrivia</string>
+    <string name="app_name">TriviaLock</string>
     <string name="title_activity_jump_screen">JumpScreen</string>
     <string name="title_activity_my_settings">Settings</string>
 

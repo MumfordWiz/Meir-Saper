@@ -1,4 +1,4 @@
-package com.example.david.locktrivia;
+package com.meir.david.locktrivia;
 
 
 import java.util.ArrayList;

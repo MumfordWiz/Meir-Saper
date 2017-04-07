@@ -1,6 +1,5 @@
-package com.example.david.locktrivia;
+package com.meir.david.locktrivia;
 
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
