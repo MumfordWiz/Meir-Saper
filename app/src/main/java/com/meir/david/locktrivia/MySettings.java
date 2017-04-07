@@ -66,11 +66,11 @@ public class MySettings extends AppCompatActivity {
         SharedPreferences SP = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
         SharedPreferences.Editor editor = SP.edit();
 
-        editor.putBoolean("sports",true);
-        editor.putBoolean("food", true);
-        editor.putBoolean("history", true);
-        editor.putBoolean("movies", true);
-        editor.putBoolean("science", true);
+        editor.putBoolean("sports",false);
+        editor.putBoolean("food", false);
+        editor.putBoolean("history", false);
+        editor.putBoolean("movies", false);
+        editor.putBoolean("science", false);
 
         editor.putInt("quesnumber", 5);
         editor.putInt("counter", 5);
@@ -78,7 +78,7 @@ public class MySettings extends AppCompatActivity {
 //        Button questions = (Button) findViewById(R.id.numQues);
 //        questions.
 
-        editor.commit();
+        editor.apply();
         onResume();
     }
 

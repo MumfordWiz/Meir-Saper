@@ -13,65 +13,70 @@ public class PickCategory extends Activity {
     boolean sportsButton = false;
     int counter = 0;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pick_category);
         SharedPreferences SP = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
 
+        counter = SP.getInt(Consts.CATEGORY_COUNTER, 0);
         Button tempButton = (Button) findViewById(R.id.food);
-        if(SP.getBoolean("food", true))
+
+        if(SP.getBoolean("food", false))
         {
             foodButton = true;
-            counter++;
             tempButton.setBackgroundResource(R.drawable.bottombuttoncategorypressed);
+        } else {
+            tempButton.setBackgroundResource(R.drawable.categorywindow);
         }
 
         tempButton = (Button) findViewById(R.id.History);
-        if(SP.getBoolean("history", true))
+        if(SP.getBoolean("history", false))
         {
             historyButton = true;
-            counter++;
             tempButton.setBackgroundResource(R.drawable.categorywindowpressed);
+        }else {
+            tempButton.setBackgroundResource(R.drawable.categorywindow);
         }
 
         tempButton = (Button) findViewById(R.id.Sports);
 
-        if(SP.getBoolean("sports", true))
+        if(SP.getBoolean("sports", false))
         {
             sportsButton = true;
-            counter++;
             tempButton.setBackgroundResource(R.drawable.categorywindowpressed);
+        }else {
+            tempButton.setBackgroundResource(R.drawable.categorywindow);
         }
 
         tempButton = (Button) findViewById(R.id.Movies);
-        if(SP.getBoolean("movies", true))
+        if(SP.getBoolean("movies", false))
         {
             moviesButton = true;
-            counter++;
             tempButton.setBackgroundResource(R.drawable.categorywindowpressed);
+        }else {
+            tempButton.setBackgroundResource(R.drawable.categorywindow);
         }
 
         tempButton = (Button) findViewById(R.id.Science);
-        if(SP.getBoolean("science", true))
+        if(SP.getBoolean("science", false))
         {
             scienceButton = true;
-            counter++;
             tempButton.setBackgroundResource(R.drawable.categorywindowpressed);
+        }else {
+            tempButton.setBackgroundResource(R.drawable.categorywindow);
         }
-
-
-
     }
+
     public void sportClick(View v) {
 
         Button sport = (Button) v;
+
         if(sportsButton && counter > 1 )
         {
             sportsButton = false;
             counter--;
+
             sport.setBackgroundResource(R.drawable.categorywindow);
         }
         else if(!sportsButton)
@@ -80,22 +85,6 @@ public class PickCategory extends Activity {
             sportsButton = true;
             sport.setBackgroundResource(R.drawable.categorywindowpressed);
         }
-
-
-
-//        if (isAllUnchecked(v)) {
-//            sport.setBackgroundResource(R.drawable.categorywindowpressed);
-//            return;
-//        }
-        SharedPreferences SP = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-        SharedPreferences.Editor editor = SP.edit();
-//        if (sport.isChecked()) {
-//            editor.putBoolean("sports", true);
-//        }
-//        else {
-//            editor.putBoolean("sports", false);
-//        }
-        editor.commit();
 
     }
     public void foodClick(View v) {
@@ -114,19 +103,6 @@ public class PickCategory extends Activity {
             foodButton = true;
             food.setBackgroundResource(R.drawable.bottombuttoncategorypressed);
         }
-//        if (isAllUnchecked(v)) {
-//            food.setBackgroundResource(R.drawable.categorywindowpressed);
-//            return;
-//        }
-        SharedPreferences SP = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-        SharedPreferences.Editor editor = SP.edit();
-//        if (food.isChecked()) {
-//            editor.putBoolean("food", true);
-//        }
-//        else {
-//            editor.putBoolean("food", false);
-//        }
-        editor.commit();
 
     }
     public void scienceClick(View v) {
@@ -144,19 +120,6 @@ public class PickCategory extends Activity {
             scienceButton = true;
             science.setBackgroundResource(R.drawable.categorywindowpressed);
         }
-//        if (isAllUnchecked(v)) {
-//            science.setBackgroundResource(R.drawable.categorywindowpressed);
-//            return;
-//        }
-        SharedPreferences SP = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-        SharedPreferences.Editor editor = SP.edit();
-//        if (science.isChecked()) {
-//            editor.putBoolean("science", true);
-//        }
-//        else {
-//            editor.putBoolean("science", false);
-//        }
-        editor.apply();
 
     }
     public void moviesClick(View v) {
@@ -174,19 +137,7 @@ public class PickCategory extends Activity {
             moviesButton = true;
             movies.setBackgroundResource(R.drawable.categorywindowpressed);
         }
-//        if (isAllUnchecked(v)) {
-//            movies.setBackgroundResource(R.drawable.categorywindowpressed);
-//            return;
-//        }
-        SharedPreferences SP = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-        SharedPreferences.Editor editor = SP.edit();
-//        if (movies.isChecked()) {
-//            editor.putBoolean("movies", true);
-//        }
-//        else {
-//            editor.putBoolean("movies", false);
-//        }
-        editor.apply();
+
 
     }
     public void historyClick(View v) {
@@ -203,19 +154,7 @@ public class PickCategory extends Activity {
             historyButton = true;
             history.setBackgroundResource(R.drawable.categorywindowpressed);
         }
-//        if (isAllUnchecked(v)) {
-//            history.setBackgroundResource(R.drawable.categorywindowpressed);
-//            return;
-//        }
-        SharedPreferences SP = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-        SharedPreferences.Editor editor = SP.edit();
-//        if (history.isChecked()) {
-//            editor.putBoolean("history", true);
-//        }
-//        else {
-//            editor.putBoolean("history", false);
-//        }
-        editor.apply();
+
 
     }
 
@@ -224,14 +163,13 @@ public class PickCategory extends Activity {
 
         SharedPreferences SP = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
         SharedPreferences.Editor editor = SP.edit();
-//        editor.putInt("quesnumber", quesNumber);
-//        editor.putInt("counter", quesNumber);
-
         editor.putBoolean("sports",sportsButton);
         editor.putBoolean("food", foodButton);
         editor.putBoolean("history", historyButton);
         editor.putBoolean("movies", moviesButton);
         editor.putBoolean("science", scienceButton);
+        editor.putInt(Consts.CATEGORY_COUNTER, counter);
+
         editor.apply();
 
         finish();
