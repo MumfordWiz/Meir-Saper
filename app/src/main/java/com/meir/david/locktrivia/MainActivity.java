@@ -19,6 +19,8 @@ import android.view.View;
 import android.widget.Button;
 
 import android.media.MediaPlayer;
+
+import static java.security.AccessController.getContext;
 //meir franco
 
 public class MainActivity extends AppCompatActivity {
@@ -87,7 +89,6 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences SP = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
         SharedPreferences.Editor editor =  SP.edit();
 
-
         Button tg = (Button)findViewById(R.id.button);
         if(mp != null)
         {
@@ -100,10 +101,26 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if(!checked){
-//            AlertDialog dialog = new AlertDialog(this);
-//            dialog.setCancelable(true);
-//            dialog.setOnCancelListener(new  DialogInterface.OnCancelListener);
-
+            int catCounter = SP.getInt(Consts.CATEGORY_COUNTER, 0);
+            if (catCounter == 0) {
+                new AlertDialog.Builder(this)
+                    .setTitle("Add Category")
+                    .setMessage("You must choose categories to turn on service")
+                    .setPositiveButton("Choose Categories", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+                            startActivity(new Intent(MainActivity.this, PickCategory.class));
+                            overridePendingTransition( R.anim.slide_in_up, R.anim.slide_out_up );
+                        }
+                    })
+                    .setNegativeButton("Set it up later", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+                            // do nothing
+                        }
+                    })
+                    .setIcon(android.R.drawable.ic_dialog_alert)
+                    .show();
+                return;
+            }
             checked = true;
             Drawable drawable = ContextCompat.getDrawable(getApplicationContext(), R.drawable.locked);
             tg.setCompoundDrawablesWithIntrinsicBounds( null, drawable, null, null );

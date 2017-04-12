@@ -1,9 +1,12 @@
 package com.meir.david.locktrivia;
 
 import android.app.Activity;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.support.v7.app.AlertDialog;
 import android.view.View;
 import android.widget.Button;
 
@@ -67,19 +70,29 @@ public class PickCategory extends Activity {
             tempButton.setBackgroundResource(R.drawable.categorywindow);
         }
     }
-
+    public void lastCat() {
+        new AlertDialog.Builder(this)
+                .setTitle("Categories")
+                .setMessage("You must choose at least one category")
+                .setIcon(android.R.drawable.ic_dialog_alert)
+                .show();
+    }
     public void sportClick(View v) {
 
         Button sport = (Button) v;
 
-        if(sportsButton && counter > 1 )
+        if(sportsButton)
         {
+            if (counter == 1) {
+                lastCat();
+                return;
+            }
             sportsButton = false;
             counter--;
 
             sport.setBackgroundResource(R.drawable.categorywindow);
         }
-        else if(!sportsButton)
+        else
         {
             counter++;
             sportsButton = true;
@@ -91,13 +104,17 @@ public class PickCategory extends Activity {
         Button food = (Button) v;
 
 
-        if(foodButton && counter > 1)
+        if(foodButton)
         {
+            if (counter == 1) {
+                lastCat();
+                return;
+            }
             counter--;
             foodButton = false;
             food.setBackgroundResource(R.drawable.categorywindow);
         }
-        else if(!foodButton)
+        else
         {
             counter++;
             foodButton = true;
@@ -108,13 +125,17 @@ public class PickCategory extends Activity {
     public void scienceClick(View v) {
         Button science = (Button) v;
 
-        if(scienceButton && counter > 1)
+        if(scienceButton)
         {
+            if (counter == 1) {
+                lastCat();
+                return;
+            }
             counter--;
             scienceButton = false;
             science.setBackgroundResource(R.drawable.categorywindow);
         }
-        else if(!scienceButton)
+        else
         {
             counter++;
             scienceButton = true;
@@ -125,13 +146,17 @@ public class PickCategory extends Activity {
     public void moviesClick(View v) {
         Button movies = (Button) v;
 
-        if(moviesButton && counter > 1)
+        if(moviesButton)
         {
+            if (counter == 1) {
+                lastCat();
+                return;
+            }
             counter--;
             moviesButton = false;
             movies.setBackgroundResource(R.drawable.categorywindow);
         }
-        else if(!moviesButton)
+        else
         {
             counter++;
             moviesButton = true;
@@ -142,13 +167,17 @@ public class PickCategory extends Activity {
     }
     public void historyClick(View v) {
         Button history = (Button) v;
-        if(historyButton && counter > 1)
+        if(historyButton)
         {
+            if (counter == 1) {
+                lastCat();
+                return;
+            }
             counter--;
             historyButton = false;
             history.setBackgroundResource(R.drawable.categorywindow);
         }
-        else if(!historyButton)
+        else
         {
             counter++;
             historyButton = true;
